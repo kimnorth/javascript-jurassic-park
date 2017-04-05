@@ -14,7 +14,7 @@ describe('Dinosaur', function(){
   })
 
   it('has a number of offspring per year', function(){
-    assert.strictEqual(10, velociraptor.getOffspring());
+    assert.strictEqual(10, velociraptor.getOffspring2016());
   })
 
 });
